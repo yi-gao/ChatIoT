@@ -6,8 +6,6 @@ A voice assistant that enables you to effortlessly create a smart home.
 English / [简体中文](./README_CN.md)
 </div>
 
-test
-
 
 ## :pencil: Introduction
 The mission of ChatIoT is to empower users to create TAP (Trigger-action Program) through natural language interactions. 
