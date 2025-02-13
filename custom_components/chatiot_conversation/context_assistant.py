@@ -77,6 +77,8 @@ def get_miot_info():
         os.makedirs(f'{DATA_PATH}/temp/miot/info')
     for device in miot_devices:
         model = device["model"]
+        if model == 'unknown':
+            continue
         if os.path.exists(f'{DATA_PATH}/temp/miot/info/{model}.json'):
             continue
         if not os.path.exists(f'{DATA_PATH}/temp/miot/spec/{model}.json'):
@@ -112,6 +114,25 @@ def get_miot_devices():
                     'area': area_id if area_id else 'unknown',
                     'model': model if model else 'unknown',
                     'mac_address': mac_address,
+                    'integration': 'xiaomi_miot'
+                }
+                miot_devices.append(miot_device_info)
+                device_id_counter += 1
+            elif identifier[0] == 'xiaomi_home':
+                area_id = device['area_id']
+                model = device['model']
+                # 条件判断name_by_user是否为null，不为空则使用name_by_user，否则使用name
+                name = device['name_by_user']
+                if name is None:
+                    name = device['name']
+                # identifier[1] 直接判断关联实体
+                miot_device_info = {
+                    'id': device_id_counter,
+                    'name': name,
+                    'area': area_id if area_id else 'unknown',
+                    'model': model if model else 'unknown',
+                    'identifier': identifier[1],
+                    'integration': 'xiaomi_home'
                 }
                 miot_devices.append(miot_device_info)
                 device_id_counter += 1
@@ -187,6 +208,13 @@ def find_entities_by_device(device):
                     entities_by_device.append(entity)
     return entities_by_device
 
+def find_entities_by_indentifier(identifier):
+    entities_by_identifier = []
+    for entity in CONFIG.hass_data["states"]:
+        if identifier in entity["entity_id"]:
+            entities_by_identifier.append(entity)
+    return entities_by_identifier
+
 def get_all_context():
     miot_devices = CONFIG.hass_data['miot_devices']
     get_miot_info()
@@ -201,21 +229,21 @@ def get_all_context():
         single_device_context['area'] = device['area']
         single_device_context['type'] = info['type']
         services = info['services']
-        service_to_remove = []
-        for service_name, service in services.items():
-            property_to_remove = []
-            for property_name, _ in service.items():
-                field = f"{service_name}.{property_name}"
-                _logger.debug(f"field: {field}")
-                entity = find_entity_by_field_mac(field, device['mac_address'])
-                if entity is None:
-                    property_to_remove.append(property_name)
-            for property_name in property_to_remove:
-                service.pop(property_name)
-            if service == {}:
-                service_to_remove.append(service_name)
-        for service_name in service_to_remove:
-            services.pop(service_name)
+        # service_to_remove = []
+        # for service_name, service in services.items():
+        #     property_to_remove = []
+        #     for property_name, _ in service.items():
+        #         field = f"{service_name}.{property_name}"
+        #         _logger.debug(f"field: {field}")
+        #         entity = find_entity_by_field_mac(field, device['mac_address'])
+        #         if entity is None:
+        #             property_to_remove.append(property_name)
+        #     for property_name in property_to_remove:
+        #         service.pop(property_name)
+        #     if service == {}:
+        #         service_to_remove.append(service_name)
+        # for service_name in service_to_remove:
+        #     services.pop(service_name)
         single_device_context['services'] = services
         all_context.append(single_device_context)
     CONFIG.hass_data['all_context'] = all_context
@@ -225,3 +253,5 @@ def get_all_context():
 def get_related_context(request: str):
     pass
 
+if __name__ == "__main__":
+    print(get_all_states())

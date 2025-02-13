@@ -8,7 +8,6 @@ class Message(BaseModel):
     send_to: list
 
     def __str__(self):
-        # return f"{self.role}: {self.content}"
         return f"{self.content}"
 
     def to_dict(self):

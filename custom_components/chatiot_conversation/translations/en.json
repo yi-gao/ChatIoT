@@ -13,8 +13,8 @@
                     "max_tokens": "Max Tokens",
                     "access_token": "HASS Access Token"
                 },
-                "description": "Provide the connection details to connect to the LLM API.\n\n**Models supported:**\n1. gpt-3.5-turbo-0125\n2. gpt-4-turbo\n3. gpt-4o\n4. deepseek-chat\n5. moonshot-v1-8k",
-                "title": "Configure connection to LLM API"
+                "description": "Provide the connection details to connect to the LLM API.\n\n**Models supported:**\n1. qwen_max_latest [Recommended]\n2. deepseek-chat\n3. gpt-3.5-turbo\n4. gpt-4-turbo\n5. gpt-4o",
+                "title": "Configure ChatIoT Conversation"
             }
         }
     }

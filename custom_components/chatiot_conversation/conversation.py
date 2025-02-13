@@ -32,9 +32,7 @@ from configs import CONFIG
 from context_assistant import download_instance, get_miot_info, get_miot_devices, get_all_states, get_all_context
 from utils.utils import delete_all_files_in_folder
 
-
 _logger.debug(f"conversation.py: module import completed")
-
 CONFIG_SCHEMA = cv.config_entry_only_config_schema(DOMAIN)
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_entities: AddEntitiesCallback) -> bool:
@@ -42,22 +40,17 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry, async_add_e
 
     def create_agent(provider):
         agent_cls = None
-
         if provider in PROVIDERS:
             agent_cls = GenericOpenAIAPIAgent
         else:
             _logger.error(f"Unsupported provider: {provider}")
             raise ValueError(f"Unsupported provider: {provider}")
-        
         return agent_cls(hass, entry)
 
     provider = entry.data.get(CONF_PROVIDER, DEFAULT_PROVIDER)
     agent = await hass.async_add_executor_job(create_agent, provider)
-
     await agent._async_load_model(entry)
-
     async_add_entities([agent])
-
     return True
 
 class LocalLLMAgent(ConversationEntity, AbstractConversationAgent):
@@ -75,11 +68,9 @@ class LocalLLMAgent(ConversationEntity, AbstractConversationAgent):
         self._attr_supported_features = (
             ha_conversation.ConversationEntityFeature.CONTROL
         )
-
         self.hass = hass
         self.entry_id = entry.entry_id
         self.history = {}
-
         _logger.debug("start conversation")
 
     async def async_added_to_hass(self) -> None:
@@ -140,8 +131,8 @@ class LocalLLMAgent(ConversationEntity, AbstractConversationAgent):
             conversation_id = user_input.conversation_id
         else:
             conversation_id = ulid.ulid()
+        
         conversation = []
-
         _logger.debug(f"user_input: {user_input}")
 
         conversation = []
@@ -243,24 +234,24 @@ class LocalLLMAgent(ConversationEntity, AbstractConversationAgent):
             _logger.error(f"Connection error was: {repr(ex)}")
             return "failed_to_connect"
 
-    async def _get_states(self):
-        access_token = CONFIG.hass_data["access_token"]
-        headers = {
-            "Authorization": f"Bearer {access_token}",
-            "Content-Type": "application/json"
-        }
-        url = "http://127.0.0.1:8123/api/states"
-        try:
-            def test():
-                nonlocal url, headers
-                response = requests.get(url=url, headers=headers)
-                _logger.debug(f"response: {response}")
-                return "success"
-            response = await self.hass.async_add_executor_job(test)
-            return response
-        except Exception as ex:
-            _logger.error(f"Connection error was: {repr(ex)}")
-            return "failed_to_connect"
+    # async def _get_states(self):
+    #     access_token = CONFIG.hass_data["access_token"]
+    #     headers = {
+    #         "Authorization": f"Bearer {access_token}",
+    #         "Content-Type": "application/json"
+    #     }
+    #     url = "http://127.0.0.1:8123/api/states"
+    #     try:
+    #         def test():
+    #             nonlocal url, headers
+    #             response = requests.get(url=url, headers=headers)
+    #             _logger.debug(f"response: {response}")
+    #             return "success"
+    #         response = await self.hass.async_add_executor_job(test)
+    #         return response
+    #     except Exception as ex:
+    #         _logger.error(f"Connection error was: {repr(ex)}")
+    #         return "failed_to_connect"
 
 class GenericOpenAIAPIAgent(LocalLLMAgent):
     """Generic OpenAI API conversation agent."""
@@ -297,7 +288,7 @@ class GenericOpenAIAPIAgent(LocalLLMAgent):
             return result
         except Exception as err:
             _logger.error(f"Error generating response: {err}")
-            return f"Error generating response: {err}"
+            return f"{err}"
         
 
     

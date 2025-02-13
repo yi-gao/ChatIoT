@@ -1,0 +1,277 @@
+{
+    "type": "urn:miot-spec-v2:device:light:0000A001:yeelink-light3:1:0000C802",
+    "description": "Lightctl Light",
+    "services": [
+        {
+            "iid": 1,
+            "type": "urn:miot-spec-v2:service:device-information:00007801:yeelink-light3:1:0000C802",
+            "description": "",
+            "properties": [
+                {
+                    "iid": 1,
+                    "type": "urn:miot-spec-v2:property:manufacturer:00000001:yeelink-light3:1:0000C802",
+                    "description": "Device Manufacturer",
+                    "format": "string",
+                    "access": [
+                        "read"
+                    ]
+                },
+                {
+                    "iid": 2,
+                    "type": "urn:miot-spec-v2:property:model:00000002:yeelink-light3:1:0000C802",
+                    "description": "Device Model",
+                    "format": "string",
+                    "access": [
+                        "read"
+                    ]
+                },
+                {
+                    "iid": 3,
+                    "type": "urn:miot-spec-v2:property:serial-number:00000003:yeelink-light3:1:0000C802",
+                    "description": "Device Serial Number",
+                    "format": "string",
+                    "access": [
+                        "read"
+                    ]
+                },
+                {
+                    "iid": 4,
+                    "type": "urn:miot-spec-v2:property:firmware-revision:00000005:yeelink-light3:1:0000C802",
+                    "description": "Current Firmware Version",
+                    "format": "string",
+                    "access": [
+                        "read"
+                    ]
+                }
+            ]
+        },
+        {
+            "iid": 2,
+            "type": "urn:miot-spec-v2:service:light:00007802:yeelink-light3:1:0000C802",
+            "description": "",
+            "properties": [
+                {
+                    "iid": 1,
+                    "type": "urn:miot-spec-v2:property:on:00000006:yeelink-light3:1:0000C802",
+                    "description": "Switch Status",
+                    "format": "bool",
+                    "access": [
+                        "read",
+                        "write",
+                        "notify"
+                    ]
+                },
+                {
+                    "iid": 2,
+                    "type": "urn:miot-spec-v2:property:brightness:0000000D:yeelink-light3:1:0000C802",
+                    "description": "Brightness",
+                    "format": "uint16",
+                    "access": [
+                        "read",
+                        "write",
+                        "notify"
+                    ],
+                    "unit": "percentage",
+                    "value-range": [
+                        1,
+                        65535,
+                        1
+                    ]
+                },
+                {
+                    "iid": 3,
+                    "type": "urn:miot-spec-v2:property:color-temperature:0000000F:yeelink-light3:1:0000C802",
+                    "description": "Color Temperature",
+                    "format": "uint32",
+                    "access": [
+                        "read",
+                        "write",
+                        "notify"
+                    ],
+                    "unit": "kelvin",
+                    "value-range": [
+                        2700,
+                        6500,
+                        1
+                    ]
+                }
+            ]
+        },
+        {
+            "iid": 3,
+            "type": "urn:yeelink-spec:service:yeelight-scene:00007801:yeelink-light3:1",
+            "description": "",
+            "properties": [
+                {
+                    "iid": 1,
+                    "type": "urn:yeelink-spec:property:bright-scene:00000001:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "write"
+                    ],
+                    "value-range": [
+                        -2147483648,
+                        2147483647,
+                        1
+                    ]
+                },
+                {
+                    "iid": 2,
+                    "type": "urn:yeelink-spec:property:ct-scene:00000002:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "write"
+                    ],
+                    "value-range": [
+                        -2147483648,
+                        2147483647,
+                        1
+                    ]
+                },
+                {
+                    "iid": 3,
+                    "type": "urn:yeelink-spec:property:delay-off:00000003:yeelink-light3:1",
+                    "description": "delay-off",
+                    "format": "int16",
+                    "access": [
+                        "read",
+                        "write",
+                        "notify"
+                    ],
+                    "unit": "minutes",
+                    "value-range": [
+                        0,
+                        60,
+                        1
+                    ]
+                },
+                {
+                    "iid": 4,
+                    "type": "urn:yeelink-spec:property:color-scene:00000004:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "write"
+                    ],
+                    "value-range": [
+                        -2147483648,
+                        2147483647,
+                        1
+                    ]
+                },
+                {
+                    "iid": 5,
+                    "type": "urn:yeelink-spec:property:smart-switch:00000005:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "read",
+                        "write",
+                        "notify"
+                    ],
+                    "value-range": [
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                {
+                    "iid": 6,
+                    "type": "urn:yeelink-spec:property:toggle:00000006:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "write"
+                    ],
+                    "value-range": [
+                        -32768,
+                        32767,
+                        1
+                    ]
+                },
+                {
+                    "iid": 7,
+                    "type": "urn:yeelink-spec:property:bright-adjust:00000007:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "write"
+                    ],
+                    "value-range": [
+                        -2147483648,
+                        2147483647,
+                        1
+                    ]
+                },
+                {
+                    "iid": 8,
+                    "type": "urn:yeelink-spec:property:ct-adjust:00000008:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "write"
+                    ],
+                    "value-range": [
+                        -2147483648,
+                        2147483647,
+                        1
+                    ]
+                },
+                {
+                    "iid": 9,
+                    "type": "urn:yeelink-spec:property:delay-scene:00000009:yeelink-light3:1",
+                    "description": "",
+                    "format": "int32",
+                    "access": [
+                        "write"
+                    ],
+                    "value-range": [
+                        -32768,
+                        32767,
+                        1
+                    ]
+                },
+                {
+                    "iid": 11,
+                    "type": "urn:yeelink-spec:property:powerup-setting:0000000b:yeelink-mbulb3:1",
+                    "description": "上电开关灯状态",
+                    "format": "uint32",
+                    "access": [
+                        "notify",
+                        "write",
+                        "read"
+                    ],
+                    "unit": "none",
+                    "value-list": [
+                        {
+                            "value": 0,
+                            "description": "关灯000"
+                        },
+                        {
+                            "value": 1,
+                            "description": "恢复默认状态100"
+                        },
+                        {
+                            "value": 256,
+                            "description": "关灯010"
+                        },
+                        {
+                            "value": 257,
+                            "description": "恢复上次状态110"
+                        },
+                        {
+                            "value": 65536,
+                            "description": "设置默认状态001"
+                        },
+                        {
+                            "value": 65537,
+                            "description": "设置默认状态101"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

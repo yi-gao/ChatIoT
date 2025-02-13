@@ -1,0 +1,2260 @@
+[
+    {
+        "entity_id": "person.leaf",
+        "state": "unknown",
+        "attributes": {
+            "editable": true,
+            "id": "leaf",
+            "device_trackers": [
+                "device_tracker.iphone_4"
+            ],
+            "user_id": "c4accedc0f8b4323988b44774f52d3e5",
+            "friendly_name": "leaf"
+        },
+        "last_changed": "2025-02-10T13:20:44.366052+00:00",
+        "last_reported": "2025-02-10T13:20:50.024283+00:00",
+        "last_updated": "2025-02-10T13:20:50.024283+00:00",
+        "context": {
+            "id": "01JKR0A2V8KJXG1JETDP9QA7P4",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.remote_ui",
+        "state": "off",
+        "attributes": {
+            "device_class": "connectivity",
+            "friendly_name": "Remote UI"
+        },
+        "last_changed": "2025-02-10T13:20:50.022492+00:00",
+        "last_reported": "2025-02-10T13:20:50.022492+00:00",
+        "last_updated": "2025-02-10T13:20:50.022492+00:00",
+        "context": {
+            "id": "01JKR0A2V606277HRES2VDQCJY",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "stt.home_assistant_cloud",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "Home Assistant Cloud"
+        },
+        "last_changed": "2025-02-10T13:20:46.082748+00:00",
+        "last_reported": "2025-02-10T13:20:46.082748+00:00",
+        "last_updated": "2025-02-10T13:20:46.082748+00:00",
+        "context": {
+            "id": "01JKR09Z0266Z23VG6EB9QT7KS",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "tts.home_assistant_cloud",
+        "state": "2025-01-13T13:24:48.904154+00:00",
+        "attributes": {
+            "friendly_name": "Home Assistant Cloud"
+        },
+        "last_changed": "2025-02-10T13:20:46.083366+00:00",
+        "last_reported": "2025-02-10T13:20:46.083366+00:00",
+        "last_updated": "2025-02-10T13:20:46.083366+00:00",
+        "context": {
+            "id": "01JKR09Z039J22KG9J6B9BYMWN",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "zone.home",
+        "state": "0",
+        "attributes": {
+            "latitude": 30.273272630813796,
+            "longitude": 120.12731090136371,
+            "radius": 100,
+            "passive": false,
+            "persons": [],
+            "editable": true,
+            "icon": "mdi:home",
+            "friendly_name": "我的家"
+        },
+        "last_changed": "2025-02-10T13:20:46.098970+00:00",
+        "last_reported": "2025-02-10T13:20:46.098970+00:00",
+        "last_updated": "2025-02-10T13:20:46.098970+00:00",
+        "context": {
+            "id": "01JKR09Z0J65XXCE6EE0KE856R",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "conversation.home_assistant",
+        "state": "2025-01-13T13:24:48.824494+00:00",
+        "attributes": {
+            "friendly_name": "Home Assistant",
+            "supported_features": 1
+        },
+        "last_changed": "2025-02-10T13:20:46.177625+00:00",
+        "last_reported": "2025-02-10T13:20:46.177625+00:00",
+        "last_updated": "2025-02-10T13:20:46.177625+00:00",
+        "context": {
+            "id": "01JKR09Z3111YFKNPTA2EQ7RGX",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sun.sun",
+        "state": "below_horizon",
+        "attributes": {
+            "next_dawn": "2025-02-11T22:17:31.408185+00:00",
+            "next_dusk": "2025-02-12T10:10:17.228358+00:00",
+            "next_midnight": "2025-02-11T16:13:43+00:00",
+            "next_noon": "2025-02-12T04:13:42+00:00",
+            "next_rising": "2025-02-11T22:42:37.980959+00:00",
+            "next_setting": "2025-02-12T09:45:09.860438+00:00",
+            "elevation": -63.88,
+            "azimuth": 304.25,
+            "rising": false,
+            "friendly_name": "Sun"
+        },
+        "last_changed": "2025-02-11T09:48:21.802422+00:00",
+        "last_reported": "2025-02-11T14:45:42.175230+00:00",
+        "last_updated": "2025-02-11T14:45:42.175230+00:00",
+        "context": {
+            "id": "01JKTQJ6MZABND1MVJGVTKGD18",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_dawn",
+        "state": "2025-02-11T22:17:31+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun 下个清晨"
+        },
+        "last_changed": "2025-02-10T22:18:18.330397+00:00",
+        "last_reported": "2025-02-11T11:05:42.164320+00:00",
+        "last_updated": "2025-02-10T22:18:18.330397+00:00",
+        "context": {
+            "id": "01JKRZ27ATTM3HNTAVWENK15QD",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_dusk",
+        "state": "2025-02-12T10:10:17+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun 下个黄昏"
+        },
+        "last_changed": "2025-02-11T10:09:30.899251+00:00",
+        "last_reported": "2025-02-11T11:05:42.164409+00:00",
+        "last_updated": "2025-02-11T10:09:30.899251+00:00",
+        "context": {
+            "id": "01JKT7RFRK83XTHN4HYPXAHCT0",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_midnight",
+        "state": "2025-02-11T16:13:43+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun 下个午夜"
+        },
+        "last_changed": "2025-02-10T16:13:44.003637+00:00",
+        "last_reported": "2025-02-11T11:05:42.164484+00:00",
+        "last_updated": "2025-02-10T16:13:44.003637+00:00",
+        "context": {
+            "id": "01JKRA6NP3FYXYMMC4BQ5RXWY2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_noon",
+        "state": "2025-02-12T04:13:42+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun 下个正午"
+        },
+        "last_changed": "2025-02-11T04:13:43.005477+00:00",
+        "last_reported": "2025-02-11T11:05:42.164571+00:00",
+        "last_updated": "2025-02-11T04:13:43.005477+00:00",
+        "context": {
+            "id": "01JKSKD06X692QMFJMZ5R92CT7",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_rising",
+        "state": "2025-02-11T22:42:37+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun 下次日出"
+        },
+        "last_changed": "2025-02-10T22:43:27.464892+00:00",
+        "last_reported": "2025-02-11T11:05:42.164617+00:00",
+        "last_updated": "2025-02-10T22:43:27.464892+00:00",
+        "context": {
+            "id": "01JKS0G938F0DRT1S4539CWH59",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.sun_next_setting",
+        "state": "2025-02-12T09:45:09+00:00",
+        "attributes": {
+            "device_class": "timestamp",
+            "friendly_name": "Sun 下次日落"
+        },
+        "last_changed": "2025-02-11T09:44:21.802016+00:00",
+        "last_reported": "2025-02-11T11:05:42.164660+00:00",
+        "last_updated": "2025-02-11T09:44:21.802016+00:00",
+        "context": {
+            "id": "01JKT6AE1ACEVARTCZBS2BW723",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "tts.google_translate_en_com",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "Google Translate en com"
+        },
+        "last_changed": "2025-02-10T13:20:46.929304+00:00",
+        "last_reported": "2025-02-10T13:20:46.929304+00:00",
+        "last_updated": "2025-02-10T13:20:46.929304+00:00",
+        "context": {
+            "id": "01JKR09ZTHES15MRGVA3KJWN9M",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "device_tracker.iphone_4",
+        "state": "unknown",
+        "attributes": {
+            "source_type": "gps",
+            "friendly_name": "iPhone (4)"
+        },
+        "last_changed": "2025-02-10T13:20:46.961129+00:00",
+        "last_reported": "2025-02-10T13:20:46.961129+00:00",
+        "last_updated": "2025-02-10T13:20:46.961129+00:00",
+        "context": {
+            "id": "01JKR09ZVHYQYGEW4GJRSVXB9E",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_bssid",
+        "state": "50:eb:f6:ae:92:9c",
+        "attributes": {
+            "icon": "mdi:wifi-star",
+            "friendly_name": "iPhone (4) BSSID"
+        },
+        "last_changed": "2025-02-10T13:20:46.961656+00:00",
+        "last_reported": "2025-02-10T13:20:46.961656+00:00",
+        "last_updated": "2025-02-10T13:20:46.961656+00:00",
+        "context": {
+            "id": "01JKR09ZVHTGMAQR7JA56HTP0P",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_storage",
+        "state": "8.44",
+        "attributes": {
+            "Available": "10.23 GB",
+            "Available (Important)": "30.00 GB",
+            "Available (Opportunistic)": "10.79 GB",
+            "Total": "127.87 GB",
+            "unit_of_measurement": "% available",
+            "icon": "mdi:database",
+            "friendly_name": "iPhone (4) Storage"
+        },
+        "last_changed": "2025-02-10T13:20:46.961806+00:00",
+        "last_reported": "2025-02-10T13:20:46.961806+00:00",
+        "last_updated": "2025-02-10T13:20:46.961806+00:00",
+        "context": {
+            "id": "01JKR09ZVHS7145QXRPASE6TKG",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+            "Low Power Mode": false,
+            "icon": "mdi:battery",
+            "friendly_name": "iPhone (4) Battery State"
+        },
+        "last_changed": "2025-02-10T13:20:46.961930+00:00",
+        "last_reported": "2025-02-10T13:20:46.961930+00:00",
+        "last_updated": "2025-02-10T13:20:46.961930+00:00",
+        "context": {
+            "id": "01JKR09ZVHD417XC4YJTG8QJWB",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_ssid",
+        "state": "Emnets_5G",
+        "attributes": {
+            "icon": "mdi:wifi",
+            "friendly_name": "iPhone (4) SSID"
+        },
+        "last_changed": "2025-02-10T13:20:46.962049+00:00",
+        "last_reported": "2025-02-10T13:20:46.962049+00:00",
+        "last_updated": "2025-02-10T13:20:46.962049+00:00",
+        "context": {
+            "id": "01JKR09ZVJ5JFB7QZEZ8WYMRRP",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_sim_2",
+        "state": "--",
+        "attributes": {
+            "Allows VoIP": true,
+            "Carrier ID": "0000000100000002",
+            "Carrier Name": "--",
+            "ISO Country Code": "--",
+            "Mobile Country Code": "65535",
+            "Mobile Network Code": "65535",
+            "icon": "mdi:sim",
+            "friendly_name": "iPhone (4) SIM 2"
+        },
+        "last_changed": "2025-02-10T13:20:46.962163+00:00",
+        "last_reported": "2025-02-10T13:20:46.962163+00:00",
+        "last_updated": "2025-02-10T13:20:46.962163+00:00",
+        "context": {
+            "id": "01JKR09ZVJ86ECWST8KYMJKHTD",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_battery_level",
+        "state": "100",
+        "attributes": {
+            "unit_of_measurement": "%",
+            "device_class": "battery",
+            "icon": "mdi:battery",
+            "friendly_name": "iPhone (4) Battery Level"
+        },
+        "last_changed": "2025-02-10T13:20:46.962324+00:00",
+        "last_reported": "2025-02-10T13:20:46.962324+00:00",
+        "last_updated": "2025-02-10T13:20:46.962324+00:00",
+        "context": {
+            "id": "01JKR09ZVJPQ236CDJ6X7C6E60",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_last_update_trigger",
+        "state": "Signaled",
+        "attributes": {
+            "icon": "mdi:cellphone-wireless",
+            "friendly_name": "iPhone (4) Last Update Trigger"
+        },
+        "last_changed": "2025-02-10T13:20:46.962475+00:00",
+        "last_reported": "2025-02-10T13:20:46.962475+00:00",
+        "last_updated": "2025-02-10T13:20:46.962475+00:00",
+        "context": {
+            "id": "01JKR09ZVJMFVN2K47D9ASA32P",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_geocoded_location",
+        "state": "Unknown",
+        "attributes": {
+            "icon": "mdi:map",
+            "friendly_name": "iPhone (4) Geocoded Location"
+        },
+        "last_changed": "2025-02-10T13:20:46.962594+00:00",
+        "last_reported": "2025-02-10T13:20:46.962594+00:00",
+        "last_updated": "2025-02-10T13:20:46.962594+00:00",
+        "context": {
+            "id": "01JKR09ZVJE2KKRRK2Q78AJ4WK",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+            "icon": "mdi:wifi",
+            "friendly_name": "iPhone (4) Connection Type"
+        },
+        "last_changed": "2025-02-10T13:20:46.962941+00:00",
+        "last_reported": "2025-02-10T13:20:46.962941+00:00",
+        "last_updated": "2025-02-10T13:20:46.962941+00:00",
+        "context": {
+            "id": "01JKR09ZVJMJHS79XEGRC06QVM",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_sim_1",
+        "state": "--",
+        "attributes": {
+            "Allows VoIP": true,
+            "Carrier ID": "0000000100000001",
+            "Carrier Name": "--",
+            "Current Radio Technology": "5G Non-Standalone",
+            "ISO Country Code": "--",
+            "Mobile Country Code": "65535",
+            "Mobile Network Code": "65535",
+            "icon": "mdi:sim",
+            "friendly_name": "iPhone (4) SIM 1"
+        },
+        "last_changed": "2025-02-10T13:20:46.963069+00:00",
+        "last_reported": "2025-02-10T13:20:46.963069+00:00",
+        "last_updated": "2025-02-10T13:20:46.963069+00:00",
+        "context": {
+            "id": "01JKR09ZVKRRNRZWNH189GDHBT",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_location_permission",
+        "state": "Authorized when in use",
+        "attributes": {
+            "icon": "mdi:map",
+            "friendly_name": "iPhone (4) Location permission"
+        },
+        "last_changed": "2025-02-10T13:20:46.963188+00:00",
+        "last_reported": "2025-02-10T13:20:46.963188+00:00",
+        "last_updated": "2025-02-10T13:20:46.963188+00:00",
+        "context": {
+            "id": "01JKR09ZVK20DA0PE9VCFJRE14",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.iphone_4_app_version",
+        "state": "2024.9.4",
+        "attributes": {
+            "icon": "mdi:cellphone",
+            "friendly_name": "iPhone (4) App Version"
+        },
+        "last_changed": "2025-02-10T13:20:46.963306+00:00",
+        "last_reported": "2025-02-10T13:20:46.963306+00:00",
+        "last_updated": "2025-02-10T13:20:46.963306+00:00",
+        "context": {
+            "id": "01JKR09ZVK39K2M79B787Y0G1A",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "update.chatiot_update",
+        "state": "off",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "e538baf",
+            "in_progress": false,
+            "latest_version": "e538baf",
+            "release_summary": null,
+            "release_url": "https://github.com/zju-emnets/ChatIoT",
+            "skipped_version": null,
+            "title": null,
+            "update_percentage": null,
+            "entity_picture": "https://brands.home-assistant.io/_/chatiot_conversation/icon.png",
+            "friendly_name": "ChatIoT update",
+            "supported_features": 23
+        },
+        "last_changed": "2025-02-10T13:20:46.996751+00:00",
+        "last_reported": "2025-02-10T13:20:46.996751+00:00",
+        "last_updated": "2025-02-10T13:20:46.996751+00:00",
+        "context": {
+            "id": "01JKR09ZWMFX660MFJMD2S93WV",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "update.xiaomi_miot_auto_update",
+        "state": "off",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "v1.0.8",
+            "in_progress": false,
+            "latest_version": "v1.0.9",
+            "release_summary": null,
+            "release_url": "https://github.com/al-one/hass-xiaomi-miot/releases/v1.0.9",
+            "skipped_version": "v1.0.9",
+            "title": null,
+            "update_percentage": null,
+            "entity_picture": "https://brands.home-assistant.io/_/xiaomi_miot/icon.png",
+            "friendly_name": "Xiaomi Miot Auto update",
+            "supported_features": 23
+        },
+        "last_changed": "2025-02-11T15:01:18.189469+00:00",
+        "last_reported": "2025-02-11T15:01:18.189469+00:00",
+        "last_updated": "2025-02-11T15:01:18.189469+00:00",
+        "context": {
+            "id": "01JKTRERQDGE3ZNEJYHXRF24KZ",
+            "parent_id": null,
+            "user_id": "c4accedc0f8b4323988b44774f52d3e5"
+        }
+    },
+    {
+        "entity_id": "update.hacs_update",
+        "state": "off",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "2.0.2",
+            "in_progress": false,
+            "latest_version": "2.0.5",
+            "release_summary": null,
+            "release_url": "https://github.com/hacs/integration/releases/2.0.5",
+            "skipped_version": "2.0.5",
+            "title": null,
+            "update_percentage": null,
+            "entity_picture": "https://brands.home-assistant.io/_/hacs/icon.png",
+            "friendly_name": "HACS update",
+            "supported_features": 23
+        },
+        "last_changed": "2025-02-11T15:01:22.325216+00:00",
+        "last_reported": "2025-02-11T15:01:22.325216+00:00",
+        "last_updated": "2025-02-11T15:01:22.325216+00:00",
+        "context": {
+            "id": "01JKTREWRN0ZJZ03GRWH0NNJMS",
+            "parent_id": null,
+            "user_id": "c4accedc0f8b4323988b44774f52d3e5"
+        }
+    },
+    {
+        "entity_id": "update.xiaomi_home_update",
+        "state": "off",
+        "attributes": {
+            "auto_update": false,
+            "display_precision": 0,
+            "installed_version": "v0.1.5b2",
+            "in_progress": false,
+            "latest_version": "v0.1.4",
+            "release_summary": null,
+            "release_url": "https://github.com/XiaoMi/ha_xiaomi_home/releases/v0.1.4",
+            "skipped_version": null,
+            "title": null,
+            "update_percentage": null,
+            "entity_picture": "https://brands.home-assistant.io/_/xiaomi_home/icon.png",
+            "friendly_name": "Xiaomi Home update",
+            "supported_features": 23
+        },
+        "last_changed": "2025-02-10T13:20:46.997508+00:00",
+        "last_reported": "2025-02-10T13:20:46.997508+00:00",
+        "last_updated": "2025-02-10T13:20:46.997508+00:00",
+        "context": {
+            "id": "01JKR09ZWN3CY0R6GY1KKJ1A3S",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "todo.shopping_list",
+        "state": "0",
+        "attributes": {
+            "friendly_name": "购物清单",
+            "supported_features": 15
+        },
+        "last_changed": "2025-02-10T13:20:46.999809+00:00",
+        "last_reported": "2025-02-10T13:20:46.999809+00:00",
+        "last_updated": "2025-02-10T13:20:46.999809+00:00",
+        "context": {
+            "id": "01JKR09ZWQNVGG2FGTF5AVGM57",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "weather.forecast_wo_de_jia",
+        "state": "cloudy",
+        "attributes": {
+            "temperature": 8.6,
+            "dew_point": 7.6,
+            "temperature_unit": "°C",
+            "humidity": 94,
+            "cloud_coverage": 100.0,
+            "uv_index": 0.0,
+            "pressure": 1019.6,
+            "pressure_unit": "hPa",
+            "wind_bearing": 269.9,
+            "wind_speed": 5.4,
+            "wind_speed_unit": "km/h",
+            "visibility_unit": "km",
+            "precipitation_unit": "mm",
+            "attribution": "Weather forecast from met.no, delivered by the Norwegian Meteorological Institute.",
+            "friendly_name": "Forecast 我的家",
+            "supported_features": 3
+        },
+        "last_changed": "2025-02-11T13:45:00.975435+00:00",
+        "last_reported": "2025-02-11T14:46:01.566093+00:00",
+        "last_updated": "2025-02-11T14:46:01.566093+00:00",
+        "context": {
+            "id": "01JKTQJSJYMFWFGDHXFBBD0AWX",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.isa_cn_blt_3_194t8rv0ke000_dw2hl_contact_state_p_2_2",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "门窗传感器  门窗传感器 接触状态"
+        },
+        "last_changed": "2025-02-11T15:02:50.812751+00:00",
+        "last_reported": "2025-02-11T15:02:50.812751+00:00",
+        "last_updated": "2025-02-11T15:02:50.812751+00:00",
+        "context": {
+            "id": "01JKTRHK5WW0NSECYHCJA7T6PE",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "binary_sensor.lumi_cn_lumi_158d000303599d_v2_motion_state_p_2_1",
+        "state": "on",
+        "attributes": {
+            "friendly_name": "人体传感器  移动检测传感器 移动检测情况"
+        },
+        "last_changed": "2025-02-11T15:02:50.813073+00:00",
+        "last_reported": "2025-02-11T15:02:50.813073+00:00",
+        "last_updated": "2025-02-11T15:02:50.813073+00:00",
+        "context": {
+            "id": "01JKTRHK5XE515DV4WAN3K5TTF",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_256707834_agl01_illumination_p_2_1",
+        "state": "396",
+        "attributes": {
+            "unit_of_measurement": "lx",
+            "device_class": "illuminance",
+            "icon": "mdi:brightness-6",
+            "friendly_name": "光照度传感器  光照传感器 亮度"
+        },
+        "last_changed": "2025-02-11T15:02:50.814296+00:00",
+        "last_reported": "2025-02-11T15:02:50.814296+00:00",
+        "last_updated": "2025-02-11T15:02:50.814296+00:00",
+        "context": {
+            "id": "01JKTRHK5YP9JXS1327WMFXFQT",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_256707834_agl01_voltage_p_3_1",
+        "state": "3100",
+        "attributes": {
+            "state_class": "measurement",
+            "unit_of_measurement": "mV",
+            "device_class": "voltage",
+            "icon": "mdi:current-dc",
+            "friendly_name": "光照度传感器  电池 电压"
+        },
+        "last_changed": "2025-02-11T15:02:50.814437+00:00",
+        "last_reported": "2025-02-11T15:02:50.814437+00:00",
+        "last_updated": "2025-02-11T15:02:50.814437+00:00",
+        "context": {
+            "id": "01JKTRHK5Y2SSZRQN5A4GVZHQ1",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_256707834_agl01_battery_level_p_4_1",
+        "state": "正常",
+        "attributes": {
+            "options": [
+                "正常",
+                "低"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:message-text",
+            "friendly_name": "光照度传感器  电池 电池电量"
+        },
+        "last_changed": "2025-02-11T15:02:50.814545+00:00",
+        "last_reported": "2025-02-11T15:02:50.814545+00:00",
+        "last_updated": "2025-02-11T15:02:50.814545+00:00",
+        "context": {
+            "id": "01JKTRHK5YKTAZTAZYXSSHP214",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_463469677_mgl03_arming_change_p_3_2",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "home_arming",
+                "away_arming",
+                "sleep_arming"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:message-text",
+            "friendly_name": "网关 * 警戒报警功能 进入基础警戒模式"
+        },
+        "last_changed": "2025-02-11T15:02:47.402629+00:00",
+        "last_reported": "2025-02-11T15:02:47.402629+00:00",
+        "last_updated": "2025-02-11T15:02:47.402629+00:00",
+        "context": {
+            "id": "01JKTRHFVAYHJBE2JYZ4ZFHJAS",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_463469677_mgl03_alarm_auto_log_p_3_23",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "网关 * 警戒报警功能 本地报警自动化的日志上报。取值为报警自动化的自动化ID。手机app拉取到这个属性值后，就可以根据自动化ID做网关的报警推送。"
+        },
+        "last_changed": "2025-02-11T15:02:47.402669+00:00",
+        "last_reported": "2025-02-11T15:02:47.402669+00:00",
+        "last_updated": "2025-02-11T15:02:47.402669+00:00",
+        "context": {
+            "id": "01JKTRHFVA08Q5Z5VWGNE2Q3JW",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_463469677_mgl03_button_p_4_1",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "single_click",
+                "shock_click_2_times",
+                "shock_click_10_times",
+                "long_press_10s",
+                "shock_click_3_times",
+                "long_press_5s"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:message-text",
+            "friendly_name": "网关 * 网关按键 网关按键"
+        },
+        "last_changed": "2025-02-11T15:02:47.402699+00:00",
+        "last_reported": "2025-02-11T15:02:47.402699+00:00",
+        "last_updated": "2025-02-11T15:02:47.402699+00:00",
+        "context": {
+            "id": "01JKTRHFVAS6Q7BCWVYB0G6GG2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_499108358_acn004_illumination_p_8_1",
+        "state": "60",
+        "attributes": {
+            "unit_of_measurement": "lx",
+            "device_class": "illuminance",
+            "icon": "mdi:brightness-6",
+            "friendly_name": "Aqara网关 M1S 2022款  Illumination Sensor 光照度"
+        },
+        "last_changed": "2025-02-11T15:02:50.812634+00:00",
+        "last_reported": "2025-02-11T15:02:50.812634+00:00",
+        "last_updated": "2025-02-11T15:02:50.812634+00:00",
+        "context": {
+            "id": "01JKTRHK5WEP1YK0ESX4WRF23V",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_499108358_acn004_alarm_auto_log_p_3_23",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 本地报警自动化的日志上报。取值为报警自动化的自动化ID。手机app拉取到这个属性值后，就可以根据自动化ID做网关的报警推送。"
+        },
+        "last_changed": "2025-02-11T15:02:47.403953+00:00",
+        "last_reported": "2025-02-11T15:02:47.403953+00:00",
+        "last_updated": "2025-02-11T15:02:47.403953+00:00",
+        "context": {
+            "id": "01JKTRHFVBMXA8QA44YPPYZCSQ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_499108358_acn004_button_p_4_1",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Click",
+                "Double Click",
+                "Triple Click",
+                "Press 10 Times",
+                "Long Press 5 Seconds",
+                "Long Press 10 Seconds"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:message-text",
+            "friendly_name": "Aqara网关 M1S 2022款 * Button Button"
+        },
+        "last_changed": "2025-02-11T15:02:47.403983+00:00",
+        "last_reported": "2025-02-11T15:02:47.403983+00:00",
+        "last_updated": "2025-02-11T15:02:47.403983+00:00",
+        "context": {
+            "id": "01JKTRHFVBQ0W00RKQYDT8G3N5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_499108358_acn004_audio_list_p_9_5",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "Aqara网关 M1S 2022款 * Play Spec Audio audio-list(json)"
+        },
+        "last_changed": "2025-02-11T15:02:47.404067+00:00",
+        "last_reported": "2025-02-11T15:02:47.404067+00:00",
+        "last_updated": "2025-02-11T15:02:47.404067+00:00",
+        "context": {
+            "id": "01JKTRHFVCF3RXRDMS9AS3B3RS",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.lumi_cn_499108358_acn004_language_list_p_9_6",
+        "state": "unknown",
+        "attributes": {
+            "friendly_name": "Aqara网关 M1S 2022款 * Play Spec Audio language-list(json)"
+        },
+        "last_changed": "2025-02-11T15:02:47.404100+00:00",
+        "last_reported": "2025-02-11T15:02:47.404100+00:00",
+        "last_updated": "2025-02-11T15:02:47.404100+00:00",
+        "context": {
+            "id": "01JKTRHFVC7A3ABJTHH1HY9R1E",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.isa_cn_blt_3_194t8rv0ke000_dw2hl_illumination_p_2_1",
+        "state": "弱",
+        "attributes": {
+            "options": [
+                "弱",
+                "强"
+            ],
+            "device_class": "enum",
+            "icon": "mdi:message-text",
+            "friendly_name": "门窗传感器  门窗传感器 光照度"
+        },
+        "last_changed": "2025-02-11T15:02:50.812865+00:00",
+        "last_reported": "2025-02-11T15:02:50.812865+00:00",
+        "last_updated": "2025-02-11T15:02:50.812865+00:00",
+        "context": {
+            "id": "01JKTRHK5W7NQAY03227YB4VNF",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "sensor.isa_cn_blt_3_194t8rv0ke000_dw2hl_battery_level_p_3_1",
+        "state": "100",
+        "attributes": {
+            "unit_of_measurement": "%",
+            "device_class": "battery",
+            "icon": "mdi:percent",
+            "friendly_name": "门窗传感器  电量 电池电量"
+        },
+        "last_changed": "2025-02-11T15:02:50.812979+00:00",
+        "last_reported": "2025-02-11T15:02:50.812979+00:00",
+        "last_updated": "2025-02-11T15:02:50.812979+00:00",
+        "context": {
+            "id": "01JKTRHK5WGS55DT35NR8ZXV3A",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "switch.lumi_cn_499108358_acn004_stop_preview_p_3_28",
+        "state": "off",
+        "attributes": {
+            "device_class": "switch",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 停止预览报警"
+        },
+        "last_changed": "2025-02-11T15:02:47.404132+00:00",
+        "last_reported": "2025-02-11T15:02:47.404132+00:00",
+        "last_updated": "2025-02-11T15:02:47.404132+00:00",
+        "context": {
+            "id": "01JKTRHFVCFKDSEXQDYXGXKBHC",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "event.lumi_cn_256707834_agl01_avoid_incodeletion_e_5_1",
+        "state": "unknown",
+        "attributes": {
+            "event_types": [
+                "设备防误删事件，网关代报"
+            ],
+            "event_type": null,
+            "friendly_name": "光照度传感器 * 公共添加部分 设备防误删事件，网关代报"
+        },
+        "last_changed": "2025-02-11T15:02:46.399604+00:00",
+        "last_reported": "2025-02-11T15:02:46.399604+00:00",
+        "last_updated": "2025-02-11T15:02:46.399604+00:00",
+        "context": {
+            "id": "01JKTRHEVZMEBHWNY24750CKDS",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "event.lumi_cn_463469677_mgl03_event_unbind_e_7_1",
+        "state": "unknown",
+        "attributes": {
+            "event_types": [
+                "网关防误删功能开启后,长按10s上报该事件."
+            ],
+            "event_type": null,
+            "friendly_name": "网关 * 网关防误删功能 网关防误删功能开启后,长按10s上报该事件."
+        },
+        "last_changed": "2025-02-11T15:02:46.400637+00:00",
+        "last_reported": "2025-02-11T15:02:46.400637+00:00",
+        "last_updated": "2025-02-11T15:02:46.400637+00:00",
+        "context": {
+            "id": "01JKTRHEW05Q9X9M32T5Q39809",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "event.lumi_cn_499108358_acn004_event_unbind_e_7_1",
+        "state": "unknown",
+        "attributes": {
+            "event_types": [
+                "Event  Unbind"
+            ],
+            "event_type": null,
+            "friendly_name": "Aqara网关 M1S 2022款 * Accidental Deletion Event  Unbind"
+        },
+        "last_changed": "2025-02-11T15:02:46.402094+00:00",
+        "last_reported": "2025-02-11T15:02:46.402094+00:00",
+        "last_updated": "2025-02-11T15:02:46.402094+00:00",
+        "context": {
+            "id": "01JKTRHEW24A36A99534DSAK5P",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "event.lumi_cn_lumi_158d000303599d_v2_motion_detected_e_2_1",
+        "state": "2025-02-11T01:44:36.982+00:00",
+        "attributes": {
+            "event_types": [
+                "检测到移动"
+            ],
+            "event_type": "检测到移动",
+            "device_class": "motion",
+            "friendly_name": "人体传感器  移动检测传感器 检测到移动"
+        },
+        "last_changed": "2025-02-11T15:02:46.403924+00:00",
+        "last_reported": "2025-02-11T15:02:46.403924+00:00",
+        "last_updated": "2025-02-11T15:02:46.403924+00:00",
+        "context": {
+            "id": "01JKTRHEW3TRMYJSHXYKG3CP0A",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.yeelink_cn_1008115301_mbulb3_s_2",
+        "state": "on",
+        "attributes": {
+            "min_color_temp_kelvin": 2700,
+            "max_color_temp_kelvin": 6500,
+            "min_mireds": 153,
+            "max_mireds": 370,
+            "supported_color_modes": [
+                "color_temp"
+            ],
+            "color_mode": "color_temp",
+            "brightness": 255,
+            "color_temp_kelvin": 2700,
+            "color_temp": 370,
+            "hs_color": [
+                28.395,
+                65.723
+            ],
+            "rgb_color": [
+                255,
+                167,
+                87
+            ],
+            "xy_color": [
+                0.525,
+                0.388
+            ],
+            "friendly_name": "灯泡  灯",
+            "supported_features": 0
+        },
+        "last_changed": "2025-02-11T15:02:50.813288+00:00",
+        "last_reported": "2025-02-11T15:03:49.040704+00:00",
+        "last_updated": "2025-02-11T15:03:48.399305+00:00",
+        "context": {
+            "id": "01JKTRKB0MQ7P99VNKN869JQ88",
+            "parent_id": null,
+            "user_id": "c4accedc0f8b4323988b44774f52d3e5"
+        }
+    },
+    {
+        "entity_id": "light.lumi_cn_463469677_mgl03_s_6",
+        "state": "off",
+        "attributes": {
+            "supported_color_modes": [
+                "onoff"
+            ],
+            "color_mode": null,
+            "friendly_name": "网关  指示灯",
+            "supported_features": 0
+        },
+        "last_changed": "2025-02-11T15:02:50.814670+00:00",
+        "last_reported": "2025-02-11T15:02:50.814670+00:00",
+        "last_updated": "2025-02-11T15:02:50.814670+00:00",
+        "context": {
+            "id": "01JKTRHK5YPS497HTMW9RCJ09B",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "light.lumi_cn_499108358_acn004_s_2",
+        "state": "off",
+        "attributes": {
+            "supported_color_modes": [
+                "rgb"
+            ],
+            "color_mode": null,
+            "brightness": null,
+            "hs_color": null,
+            "rgb_color": null,
+            "xy_color": null,
+            "friendly_name": "Aqara网关 M1S 2022款  RGB Light",
+            "supported_features": 0
+        },
+        "last_changed": "2025-02-11T15:02:50.811992+00:00",
+        "last_reported": "2025-02-11T15:02:50.812404+00:00",
+        "last_updated": "2025-02-11T15:02:50.811992+00:00",
+        "context": {
+            "id": "01JKTRHK5VJCE9AB60SQ1J5WQQ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_delay_time_basic_p_3_9",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 5,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 基础警戒延时生效时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.401738+00:00",
+        "last_reported": "2025-02-11T15:02:47.401738+00:00",
+        "last_updated": "2025-02-11T15:02:47.401738+00:00",
+        "context": {
+            "id": "01JKTRHFV9FMDPXFE4C4Q63Z85",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_alarm_duration_basic_p_3_10",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 基础报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.401781+00:00",
+        "last_reported": "2025-02-11T15:02:47.401781+00:00",
+        "last_updated": "2025-02-11T15:02:47.401781+00:00",
+        "context": {
+            "id": "01JKTRHFV9VSH6CAASH9DQYG2Z",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_delay_time_home_p_3_12",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 5,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 在家警戒延时生效时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.401816+00:00",
+        "last_reported": "2025-02-11T15:02:47.401816+00:00",
+        "last_updated": "2025-02-11T15:02:47.401816+00:00",
+        "context": {
+            "id": "01JKTRHFV9Y3NNNW9DYZM8A700",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_alarm_duration_home_p_3_13",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 在家报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.401850+00:00",
+        "last_reported": "2025-02-11T15:02:47.401850+00:00",
+        "last_updated": "2025-02-11T15:02:47.401850+00:00",
+        "context": {
+            "id": "01JKTRHFV9K7F6YTWY0BDQM99D",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_delay_time_away_p_3_15",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 5,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 离家警戒延时时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.401882+00:00",
+        "last_reported": "2025-02-11T15:02:47.401882+00:00",
+        "last_updated": "2025-02-11T15:02:47.401882+00:00",
+        "context": {
+            "id": "01JKTRHFV9YYXEE99DAY43KZJ2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_alarm_duration_away_p_3_16",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 离线报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.402051+00:00",
+        "last_reported": "2025-02-11T15:02:47.402051+00:00",
+        "last_updated": "2025-02-11T15:02:47.402051+00:00",
+        "context": {
+            "id": "01JKTRHFVAQFTBB063C2GHXJW5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_delay_time_sleep_p_3_18",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 5,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 睡眠警戒延时时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.402090+00:00",
+        "last_reported": "2025-02-11T15:02:47.402090+00:00",
+        "last_updated": "2025-02-11T15:02:47.402090+00:00",
+        "context": {
+            "id": "01JKTRHFVA92625XAT4HZ6JEPZ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_463469677_mgl03_alarm_duration_sleep_p_3_19",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "网关 * 警戒报警功能 睡眠报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.402120+00:00",
+        "last_reported": "2025-02-11T15:02:47.402120+00:00",
+        "last_updated": "2025-02-11T15:02:47.402120+00:00",
+        "context": {
+            "id": "01JKTRHFVA9SJND95Y013CQ0GP",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_volume_p_5_2",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "%",
+            "icon": "mdi:percent",
+            "friendly_name": "Aqara网关 M1S 2022款  Alarm 系统音量"
+        },
+        "last_changed": "2025-02-11T15:02:47.402915+00:00",
+        "last_reported": "2025-02-11T15:02:47.402915+00:00",
+        "last_updated": "2025-02-11T15:02:47.402915+00:00",
+        "context": {
+            "id": "01JKTRHFVAFXJJ014WM87DDC9J",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_delay_time_basic_p_3_9",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 5,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 基础警戒延时生效时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.402946+00:00",
+        "last_reported": "2025-02-11T15:02:47.402946+00:00",
+        "last_updated": "2025-02-11T15:02:47.402946+00:00",
+        "context": {
+            "id": "01JKTRHFVAJ3STXF02W794QJAE",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_duration_basic_p_3_10",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 基础报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.402976+00:00",
+        "last_reported": "2025-02-11T15:02:47.402976+00:00",
+        "last_updated": "2025-02-11T15:02:47.402976+00:00",
+        "context": {
+            "id": "01JKTRHFVADAPRBAMWMP2G4Z80",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_volume_basic_p_3_11",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "%",
+            "icon": "mdi:percent",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 基础报警音量百分比 0为静音"
+        },
+        "last_changed": "2025-02-11T15:02:47.403005+00:00",
+        "last_reported": "2025-02-11T15:02:47.403005+00:00",
+        "last_updated": "2025-02-11T15:02:47.403005+00:00",
+        "context": {
+            "id": "01JKTRHFVBT5P0F0YVVNTQDP1J",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_delay_time_home_p_3_12",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 5,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 延时x秒开启在家守护"
+        },
+        "last_changed": "2025-02-11T15:02:47.403035+00:00",
+        "last_reported": "2025-02-11T15:02:47.403035+00:00",
+        "last_updated": "2025-02-11T15:02:47.403035+00:00",
+        "context": {
+            "id": "01JKTRHFVBBJ0DZGJJX48D837Y",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_duration_home_p_3_13",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 在家报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.403064+00:00",
+        "last_reported": "2025-02-11T15:02:47.403064+00:00",
+        "last_updated": "2025-02-11T15:02:47.403064+00:00",
+        "context": {
+            "id": "01JKTRHFVBYWTC5QCCTDV4YSNB",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_volume_home_p_3_14",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "%",
+            "icon": "mdi:percent",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 在家报警音量百分比:0为静音"
+        },
+        "last_changed": "2025-02-11T15:02:47.403093+00:00",
+        "last_reported": "2025-02-11T15:02:47.403093+00:00",
+        "last_updated": "2025-02-11T15:02:47.403093+00:00",
+        "context": {
+            "id": "01JKTRHFVBSCW07722X9TYA6CH",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_delay_time_away_p_3_15",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 延时x秒开启离家守护"
+        },
+        "last_changed": "2025-02-11T15:02:47.403124+00:00",
+        "last_reported": "2025-02-11T15:02:47.403124+00:00",
+        "last_updated": "2025-02-11T15:02:47.403124+00:00",
+        "context": {
+            "id": "01JKTRHFVBREACX0DK6KS84DC6",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_duration_away_p_3_16",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 离家报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.403152+00:00",
+        "last_reported": "2025-02-11T15:02:47.403152+00:00",
+        "last_updated": "2025-02-11T15:02:47.403152+00:00",
+        "context": {
+            "id": "01JKTRHFVBN2CZBXB0NP7H8J3Q",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_volume_away_p_3_17",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "%",
+            "icon": "mdi:percent",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 离家报警音量百分比:0为静音"
+        },
+        "last_changed": "2025-02-11T15:02:47.403181+00:00",
+        "last_reported": "2025-02-11T15:02:47.403181+00:00",
+        "last_updated": "2025-02-11T15:02:47.403181+00:00",
+        "context": {
+            "id": "01JKTRHFVBS9DJ489NKW7WTGS5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_delay_time_sleep_p_3_18",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 60,
+            "step": 5,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 延时x秒开启睡眠守护"
+        },
+        "last_changed": "2025-02-11T15:02:47.403210+00:00",
+        "last_reported": "2025-02-11T15:02:47.403210+00:00",
+        "last_updated": "2025-02-11T15:02:47.403210+00:00",
+        "context": {
+            "id": "01JKTRHFVBFB360EE4N2JXZ71Y",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_duration_sleep_p_3_19",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 睡眠报警持续时长"
+        },
+        "last_changed": "2025-02-11T15:02:47.403238+00:00",
+        "last_reported": "2025-02-11T15:02:47.403238+00:00",
+        "last_updated": "2025-02-11T15:02:47.403238+00:00",
+        "context": {
+            "id": "01JKTRHFVB4V51V1JQAA41E04F",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_volume_sleep_p_3_20",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 100,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "%",
+            "icon": "mdi:percent",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 睡眠报警音量百分比:0为静音"
+        },
+        "last_changed": "2025-02-11T15:02:47.403267+00:00",
+        "last_reported": "2025-02-11T15:02:47.403267+00:00",
+        "last_updated": "2025-02-11T15:02:47.403267+00:00",
+        "context": {
+            "id": "01JKTRHFVBD9CQ5CEWHFSRPVKR",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_alarm_p_3_22",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 4,
+            "step": 1,
+            "mode": "auto",
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 网关发生了报警. 0-无报警1-基础守护报警2-在家守护报警3-离家守护报警4-睡眠守护报警11-16-自定义警戒模式报警1-6"
+        },
+        "last_changed": "2025-02-11T15:02:47.403413+00:00",
+        "last_reported": "2025-02-11T15:02:47.403413+00:00",
+        "last_updated": "2025-02-11T15:02:47.403413+00:00",
+        "context": {
+            "id": "01JKTRHFVBXVWAVQ9XKFMKFWQF",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "number.lumi_cn_499108358_acn004_play_spec_audio_time_p_9_2",
+        "state": "unknown",
+        "attributes": {
+            "min": 0,
+            "max": 2147483647,
+            "step": 1,
+            "mode": "auto",
+            "unit_of_measurement": "s",
+            "icon": "mdi:clock",
+            "friendly_name": "Aqara网关 M1S 2022款 * Play Spec Audio play-spec-audio-time"
+        },
+        "last_changed": "2025-02-11T15:02:47.403462+00:00",
+        "last_reported": "2025-02-11T15:02:47.403462+00:00",
+        "last_updated": "2025-02-11T15:02:47.403462+00:00",
+        "context": {
+            "id": "01JKTRHFVBXH0EHAGKPWXVPYMC",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_256707834_agl01_avoid_incodeletion_p_5_1",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "设备防误删"
+            ],
+            "friendly_name": "光照度传感器 * 公共添加部分 设备防误删功能"
+        },
+        "last_changed": "2025-02-11T15:02:47.401417+00:00",
+        "last_reported": "2025-02-11T15:02:47.401417+00:00",
+        "last_updated": "2025-02-11T15:02:47.401417+00:00",
+        "context": {
+            "id": "01JKTRHFV93E43SC78XEQJZAH6",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_arming_mode_p_3_1",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "basic_arming",
+                "home_arming",
+                "away_arming",
+                "sleep_arming"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 arming-mode"
+        },
+        "last_changed": "2025-02-11T15:02:47.402152+00:00",
+        "last_reported": "2025-02-11T15:02:47.402152+00:00",
+        "last_updated": "2025-02-11T15:02:47.402152+00:00",
+        "context": {
+            "id": "01JKTRHFVACANBV80D3JWN3ZMW",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_customize_mode_1_p_3_3",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "关闭",
+                "开启"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 用户自定义警戒模式1"
+        },
+        "last_changed": "2025-02-11T15:02:47.402181+00:00",
+        "last_reported": "2025-02-11T15:02:47.402181+00:00",
+        "last_updated": "2025-02-11T15:02:47.402181+00:00",
+        "context": {
+            "id": "01JKTRHFVA344H8G1J7903V85F",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_customize_mode_2_p_3_4",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "关闭",
+                "开启"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 用户自定义警戒模式2"
+        },
+        "last_changed": "2025-02-11T15:02:47.402213+00:00",
+        "last_reported": "2025-02-11T15:02:47.402213+00:00",
+        "last_updated": "2025-02-11T15:02:47.402213+00:00",
+        "context": {
+            "id": "01JKTRHFVABZC2GNFXQRKX4P0J",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_customize_mode_3_p_3_5",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "关闭",
+                "开启"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 用户自定义警戒模式3"
+        },
+        "last_changed": "2025-02-11T15:02:47.402240+00:00",
+        "last_reported": "2025-02-11T15:02:47.402240+00:00",
+        "last_updated": "2025-02-11T15:02:47.402240+00:00",
+        "context": {
+            "id": "01JKTRHFVA8ESSDJDZ1426QAJ3",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_customize_mode_4_p_3_6",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "关闭",
+                "开启"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 用户自定义警戒模式4"
+        },
+        "last_changed": "2025-02-11T15:02:47.402267+00:00",
+        "last_reported": "2025-02-11T15:02:47.402267+00:00",
+        "last_updated": "2025-02-11T15:02:47.402267+00:00",
+        "context": {
+            "id": "01JKTRHFVA11324KTZNNZGJ42C",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_customize_mode_5_p_3_7",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "关闭",
+                "开启"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 用户自定义警戒模式5"
+        },
+        "last_changed": "2025-02-11T15:02:47.402293+00:00",
+        "last_reported": "2025-02-11T15:02:47.402293+00:00",
+        "last_updated": "2025-02-11T15:02:47.402293+00:00",
+        "context": {
+            "id": "01JKTRHFVAA12GF1E4N0GASC2T",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_customize_mode_6_p_3_8",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "关闭",
+                "开启"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 用户自定义警戒模式6"
+        },
+        "last_changed": "2025-02-11T15:02:47.402320+00:00",
+        "last_reported": "2025-02-11T15:02:47.402320+00:00",
+        "last_updated": "2025-02-11T15:02:47.402320+00:00",
+        "context": {
+            "id": "01JKTRHFVADYYQXTPSD48Y4MFG",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_alarm_volume_basic_p_3_11",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "静音",
+                "低音量",
+                "中音量",
+                "高音量"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 基础报警音量"
+        },
+        "last_changed": "2025-02-11T15:02:47.402400+00:00",
+        "last_reported": "2025-02-11T15:02:47.402400+00:00",
+        "last_updated": "2025-02-11T15:02:47.402400+00:00",
+        "context": {
+            "id": "01JKTRHFVA7CDJ27RW22D563FB",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_alarm_volume_home_p_3_14",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "静音",
+                "低音量",
+                "中音量",
+                "高音量"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 在家报警音量"
+        },
+        "last_changed": "2025-02-11T15:02:47.402434+00:00",
+        "last_reported": "2025-02-11T15:02:47.402434+00:00",
+        "last_updated": "2025-02-11T15:02:47.402434+00:00",
+        "context": {
+            "id": "01JKTRHFVAA8A1TE1K94SPH5GJ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_alarm_volume_away_p_3_17",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "静音",
+                "低音量",
+                "中音量",
+                "高音量"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 离家报警音量"
+        },
+        "last_changed": "2025-02-11T15:02:47.402476+00:00",
+        "last_reported": "2025-02-11T15:02:47.402476+00:00",
+        "last_updated": "2025-02-11T15:02:47.402476+00:00",
+        "context": {
+            "id": "01JKTRHFVA6AG10R486WWVP2DG",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_alarm_volume_sleep_p_3_20",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "静音",
+                "低音量",
+                "中音量",
+                "高音量"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 睡眠报警音量"
+        },
+        "last_changed": "2025-02-11T15:02:47.402507+00:00",
+        "last_reported": "2025-02-11T15:02:47.402507+00:00",
+        "last_updated": "2025-02-11T15:02:47.402507+00:00",
+        "context": {
+            "id": "01JKTRHFVA3V78V3CB9870C0YX",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_target_arming_mode_p_3_21",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "basic_arming",
+                "home_arming",
+                "away_arming",
+                "sleep_arming"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 网关自带的目标警戒模式。homekit功能需要用到该属性。"
+        },
+        "last_changed": "2025-02-11T15:02:47.402536+00:00",
+        "last_reported": "2025-02-11T15:02:47.402536+00:00",
+        "last_updated": "2025-02-11T15:02:47.402536+00:00",
+        "context": {
+            "id": "01JKTRHFVAPS2E5J6MGQCE69HZ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_alarm_p_3_22",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "No alram",
+                "Security alarm",
+                "Not_Security alarm"
+            ],
+            "friendly_name": "网关 * 警戒报警功能 网关发生了报警.\n0：表示没有发生网关报警\n1：表示发生安全系统的网关报警\n2：表示发生非安全系统的网关报警（比如水浸传感器触发了网关报警）"
+        },
+        "last_changed": "2025-02-11T15:02:47.402565+00:00",
+        "last_reported": "2025-02-11T15:02:47.402565+00:00",
+        "last_updated": "2025-02-11T15:02:47.402565+00:00",
+        "context": {
+            "id": "01JKTRHFVA6TS33BGVXDVZN4T4",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_463469677_mgl03_on_off_p_7_1",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "关闭",
+                "开启"
+            ],
+            "friendly_name": "网关 * 网关防误删功能 网关防误删功能开关"
+        },
+        "last_changed": "2025-02-11T15:02:47.402592+00:00",
+        "last_reported": "2025-02-11T15:02:47.402592+00:00",
+        "last_updated": "2025-02-11T15:02:47.402592+00:00",
+        "context": {
+            "id": "01JKTRHFVA9ZG87DGKP1RXGJTQ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_arming_mode_p_3_1",
+        "state": "Basic",
+        "attributes": {
+            "options": [
+                "Basic",
+                "At Home",
+                "Away Home",
+                "Sleeping"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 守护模式"
+        },
+        "last_changed": "2025-02-11T15:02:50.812484+00:00",
+        "last_reported": "2025-02-11T15:02:50.812484+00:00",
+        "last_updated": "2025-02-11T15:02:50.812484+00:00",
+        "context": {
+            "id": "01JKTRHK5WDPMD0D8FSHZQFHTG",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_arming_change_p_3_2",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Home Arming",
+                "Away Arming",
+                "Sleep Arming"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 进入基础警戒模式"
+        },
+        "last_changed": "2025-02-11T15:02:47.403524+00:00",
+        "last_reported": "2025-02-11T15:02:47.403524+00:00",
+        "last_updated": "2025-02-11T15:02:47.403524+00:00",
+        "context": {
+            "id": "01JKTRHFVB3NMT26SY6FA2757C",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_customize_mode_one_p_3_3",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 用户自定义警戒模式1"
+        },
+        "last_changed": "2025-02-11T15:02:47.403551+00:00",
+        "last_reported": "2025-02-11T15:02:47.403551+00:00",
+        "last_updated": "2025-02-11T15:02:47.403551+00:00",
+        "context": {
+            "id": "01JKTRHFVBNYCERWEQX9G7SG1B",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_customize_mode_two_p_3_4",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 用户自定义警戒模式2"
+        },
+        "last_changed": "2025-02-11T15:02:47.403582+00:00",
+        "last_reported": "2025-02-11T15:02:47.403582+00:00",
+        "last_updated": "2025-02-11T15:02:47.403582+00:00",
+        "context": {
+            "id": "01JKTRHFVBPEEBTC46XXMBH1S7",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_customize_mode_three_p_3_5",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 用户自定义警戒模式3"
+        },
+        "last_changed": "2025-02-11T15:02:47.403609+00:00",
+        "last_reported": "2025-02-11T15:02:47.403609+00:00",
+        "last_updated": "2025-02-11T15:02:47.403609+00:00",
+        "context": {
+            "id": "01JKTRHFVB2R7JQ4RTPBMAC6FD",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_customize_mode_four_p_3_6",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 用户自定义警戒模式4"
+        },
+        "last_changed": "2025-02-11T15:02:47.403636+00:00",
+        "last_reported": "2025-02-11T15:02:47.403636+00:00",
+        "last_updated": "2025-02-11T15:02:47.403636+00:00",
+        "context": {
+            "id": "01JKTRHFVB8SYWC28WQBVTGDYS",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_customize_mode_five_p_3_7",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 用户自定义警戒模式5"
+        },
+        "last_changed": "2025-02-11T15:02:47.403686+00:00",
+        "last_reported": "2025-02-11T15:02:47.403686+00:00",
+        "last_updated": "2025-02-11T15:02:47.403686+00:00",
+        "context": {
+            "id": "01JKTRHFVB5CMGD3V7DK7YN2RQ",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_customize_mode_six_p_3_8",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 用户自定义警戒模式6"
+        },
+        "last_changed": "2025-02-11T15:02:47.403740+00:00",
+        "last_reported": "2025-02-11T15:02:47.403740+00:00",
+        "last_updated": "2025-02-11T15:02:47.403740+00:00",
+        "context": {
+            "id": "01JKTRHFVBW378J0J9C1WDQWZ1",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_target_arming_mode_p_3_21",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Basic Arming",
+                "Home Arming",
+                "Away Arming",
+                "Sleep Arming"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 网关自带的目标警戒模式。homekit功能需要用到该属性。"
+        },
+        "last_changed": "2025-02-11T15:02:47.403783+00:00",
+        "last_reported": "2025-02-11T15:02:47.403783+00:00",
+        "last_updated": "2025-02-11T15:02:47.403783+00:00",
+        "context": {
+            "id": "01JKTRHFVBGNHTV4BGM4C7C6ZH",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_indicator_light_p_6_1",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Indicator Light Indicator Llight Turn Off At Night"
+        },
+        "last_changed": "2025-02-11T15:02:47.403811+00:00",
+        "last_reported": "2025-02-11T15:02:47.403811+00:00",
+        "last_updated": "2025-02-11T15:02:47.403811+00:00",
+        "context": {
+            "id": "01JKTRHFVBZGWBGDVFSF5N92CM",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_on_off_p_7_1",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Off",
+                "On"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Accidental Deletion 网关防误删功能开关"
+        },
+        "last_changed": "2025-02-11T15:02:47.403837+00:00",
+        "last_reported": "2025-02-11T15:02:47.403837+00:00",
+        "last_updated": "2025-02-11T15:02:47.403837+00:00",
+        "context": {
+            "id": "01JKTRHFVBV6MPHCNHQNHA8QCA",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_play_cycle_p_9_3",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "0",
+                "1"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Play Spec Audio play-cycle"
+        },
+        "last_changed": "2025-02-11T15:02:47.403864+00:00",
+        "last_reported": "2025-02-11T15:02:47.403864+00:00",
+        "last_updated": "2025-02-11T15:02:47.403864+00:00",
+        "context": {
+            "id": "01JKTRHFVBVWPP5R69HRQD67EC",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "select.lumi_cn_499108358_acn004_stop_play_p_9_4",
+        "state": "unknown",
+        "attributes": {
+            "options": [
+                "Stop"
+            ],
+            "friendly_name": "Aqara网关 M1S 2022款 * Play Spec Audio stop-play"
+        },
+        "last_changed": "2025-02-11T15:02:47.403891+00:00",
+        "last_reported": "2025-02-11T15:02:47.403891+00:00",
+        "last_updated": "2025-02-11T15:02:47.403891+00:00",
+        "context": {
+            "id": "01JKTRHFVBEFB0WFWWY0V3S7N9",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "text.lumi_cn_499108358_acn004_alarm_p_5_1",
+        "state": "unknown",
+        "attributes": {
+            "mode": "text",
+            "min": 0,
+            "max": 255,
+            "pattern": null,
+            "friendly_name": "Aqara网关 M1S 2022款  Alarm 提示音语种"
+        },
+        "last_changed": "2025-02-11T15:02:47.404167+00:00",
+        "last_reported": "2025-02-11T15:02:47.404167+00:00",
+        "last_updated": "2025-02-11T15:02:47.404167+00:00",
+        "context": {
+            "id": "01JKTRHFVCB7Q1NA7SWYY3E3X2",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "text.lumi_cn_499108358_acn004_sound_name_basic_p_3_24",
+        "state": "unknown",
+        "attributes": {
+            "mode": "text",
+            "min": 0,
+            "max": 255,
+            "pattern": null,
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 基础警戒铃声"
+        },
+        "last_changed": "2025-02-11T15:02:47.404198+00:00",
+        "last_reported": "2025-02-11T15:02:47.404198+00:00",
+        "last_updated": "2025-02-11T15:02:47.404198+00:00",
+        "context": {
+            "id": "01JKTRHFVC09FH8YPMKANNDCGA",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "text.lumi_cn_499108358_acn004_sound_name_home_p_3_25",
+        "state": "unknown",
+        "attributes": {
+            "mode": "text",
+            "min": 0,
+            "max": 255,
+            "pattern": null,
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 在家警戒铃声"
+        },
+        "last_changed": "2025-02-11T15:02:47.404226+00:00",
+        "last_reported": "2025-02-11T15:02:47.404226+00:00",
+        "last_updated": "2025-02-11T15:02:47.404226+00:00",
+        "context": {
+            "id": "01JKTRHFVC46HXN59ENAV6RJG1",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "text.lumi_cn_499108358_acn004_sound_name_away_p_3_26",
+        "state": "unknown",
+        "attributes": {
+            "mode": "text",
+            "min": 0,
+            "max": 255,
+            "pattern": null,
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 离家警戒铃声"
+        },
+        "last_changed": "2025-02-11T15:02:47.404255+00:00",
+        "last_reported": "2025-02-11T15:02:47.404255+00:00",
+        "last_updated": "2025-02-11T15:02:47.404255+00:00",
+        "context": {
+            "id": "01JKTRHFVC2G1VZWP530E1K2XB",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "text.lumi_cn_499108358_acn004_sound_name_sleep_p_3_27",
+        "state": "unknown",
+        "attributes": {
+            "mode": "text",
+            "min": 0,
+            "max": 255,
+            "pattern": null,
+            "friendly_name": "Aqara网关 M1S 2022款 * Gateway Alarming 睡眠警戒铃声"
+        },
+        "last_changed": "2025-02-11T15:02:47.404282+00:00",
+        "last_reported": "2025-02-11T15:02:47.404282+00:00",
+        "last_updated": "2025-02-11T15:02:47.404282+00:00",
+        "context": {
+            "id": "01JKTRHFVCG0PCFP392Z8PGBQ5",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "text.lumi_cn_499108358_acn004_effective_time_p_6_2",
+        "state": "unknown",
+        "attributes": {
+            "mode": "text",
+            "min": 0,
+            "max": 255,
+            "pattern": null,
+            "friendly_name": "Aqara网关 M1S 2022款 * Indicator Light Effective Time"
+        },
+        "last_changed": "2025-02-11T15:02:47.404309+00:00",
+        "last_reported": "2025-02-11T15:02:47.404309+00:00",
+        "last_updated": "2025-02-11T15:02:47.404309+00:00",
+        "context": {
+            "id": "01JKTRHFVC03H7992EBHH00G0B",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "text.lumi_cn_499108358_acn004_play_spec_audio_p_9_1",
+        "state": "unknown",
+        "attributes": {
+            "mode": "text",
+            "min": 0,
+            "max": 255,
+            "pattern": null,
+            "friendly_name": "Aqara网关 M1S 2022款 * Play Spec Audio play-spec-audio(json)"
+        },
+        "last_changed": "2025-02-11T15:02:47.404335+00:00",
+        "last_reported": "2025-02-11T15:02:47.404335+00:00",
+        "last_updated": "2025-02-11T15:02:47.404335+00:00",
+        "context": {
+            "id": "01JKTRHFVCPCW75T9E457J8RZC",
+            "parent_id": null,
+            "user_id": null
+        }
+    },
+    {
+        "entity_id": "automation.test",
+        "state": "on",
+        "attributes": {
+            "id": "1739195191489",
+            "last_triggered": "2025-02-11T15:02:12.893213+00:00",
+            "mode": "single",
+            "current": 0,
+            "friendly_name": "test"
+        },
+        "last_changed": "2025-02-11T14:40:52.024264+00:00",
+        "last_reported": "2025-02-11T15:02:12.893638+00:00",
+        "last_updated": "2025-02-11T15:02:12.893638+00:00",
+        "context": {
+            "id": "01JKTRGE4X8H53JDDKXJ9GDE6N",
+            "parent_id": "01JKTRGE4W3YJ7DGERF09CN9T0",
+            "user_id": null
+        }
+    }
+]
