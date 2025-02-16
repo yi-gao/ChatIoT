@@ -3,7 +3,7 @@
 <h1 align="center">🏠ChatIoT</h1>
 A smart assistant that makes it easy to control smart homes.
 
-[English](./README.md) / 简体中文
+English / [简体中文](./README_CN.md) 
 </div>
 
 ## 📝 Introduction
