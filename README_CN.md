@@ -58,7 +58,11 @@ cd chatiot
 
 ### Method 2: HACS
 
+手动安装：
+
 HACS > Overflow Menu > Custom repositories > Repository: https://github.com/zju-emnets/ChatIoT.git & Category or Type: Integration > ADD > ChatIoT in New or Available for download section of HACS > DOWNLOAD
+
+或点击下方按钮在HACS中进行安装：
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=Integration&repository=ChatIoT&owner=zju-emnets)
 
