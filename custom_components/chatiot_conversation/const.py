@@ -19,11 +19,11 @@ PROVIDERS = [
 ]
 
 DEFAULT_PROVIDER = PROVIDERS[0]
-DEFAULT_API_KEY = "sk-f464e1e7f46e421ab0ccb290f505c66e"
-DEFAULT_BASE_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+DEFAULT_API_KEY = ""
+DEFAULT_BASE_URL = ""
 DEFAULT_TEMPERATURE = 0.7
 DEFAULT_MAX_TOKENS = 1024
-DEFAULT_ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI5YjViZWE5MGE1NWE0OGJiOTcwY2M2NmRkMDY2YWMzZiIsImlhdCI6MTczNjk4NzczNCwiZXhwIjoyMDUyMzQ3NzM0fQ.bxvglb2wsxAJ3vdD4L6l0SAGT8GiJz8WAW-wcP_CgEY"
+DEFAULT_ACCESS_TOKEN = ""
 
 DATA_PATH = "/config/.storage/chatiot_conversation"
 WORK_PATH = "/config/custom_components/chatiot_conversation"

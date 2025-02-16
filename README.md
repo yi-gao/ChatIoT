@@ -1,66 +1,72 @@
 <div align="center">
 
 <h1 align="center">🏠ChatIoT</h1>
-A voice assistant that enables you to effortlessly create a smart home.
+A smart assistant that makes it easy to control smart homes.
 
-English / [简体中文](./README_CN.md)
+[English](./README.md) / 简体中文
 </div>
 
+## 📝 Introduction
+The main goal of ChatIoT is to enable users to interact with IoT devices without writing code or clicking through operations.
 
-## :pencil: Introduction
-The mission of ChatIoT is to empower users to create TAP (Trigger-action Program) through natural language interactions. 
-
-This repository is dedicated to the smart home domain, utilizing the Home Assistant open-source platform as its core infrastructure. Once ChatIoT is deployed, users can effortlessly control smart home devices using natural language (e.g., 'Turn on the lights in study room') or create TAP rules to automate tasks (e.g., 'If someone passes through the living room, automatically turn on the living room lights').
+This project focuses on the smart home domain, using Home Assistant as the foundational platform. After installing Home Assistant, users can achieve the following functionalities through natural language:
+- Control devices, such as "Turn on the study room light."
+- Create rules, such as "If someone passes the living room, automatically turn on the living room light."
 
 <p align="center">
 <a href=""><img src="docs\resources\ChatIoT_overview.png" width="500px"></a>
 </p>
 
-## Pre-requests
-Before using ChatIoT, you need to do some preparation.
-### 1. Home Assistant Setup
-See more details in [Home Assistant Setup Guide](./docs/Home_Assistant_Setup.md).
+## Installation Preparation
+Before using ChatIoT, you need to complete some preparatory steps.
+### 1. Install Home Assistant
+First, you need to install Home Assistant locally. It is recommended to use Docker for installation.
 
-First, you need to install a Home Assistant locally and connect to your home devices.
+Next, you need to install the HACS integration in Home Assistant.
 
-Then, you need to install the HACS integration in Home Assistant (this requires your own GitHub account).
+Finally, you can install specific integrations from the HACS store to connect your devices to Home Assistant.
 
-Finally, you can install the Xiaomi Miot Auto integration in the HACS store and then integrate your devices from Mi Home into Home Assistant.
+For detailed instructions, refer to the [Home Assistant Installation Guide](./docs/Home_Assistant_Setup_CN.md).
 
-**Note:** Currently, ChatIoT only supports Xiaomi devices integrated through Xiaomi Miot Auto. If you don't have this type of device, or you just want to experience ChatIoT, you can use the device simulator to simulate the device to generate your virtual home. See more details in [Miot Device Setup Guide](./docs/Miot_Device_Setup.md) .
+**Note**: Currently, ChatIoT supports Xiaomi Home and Xiaomi MIoT Auto integrations for connecting Mi Home devices. If you do not have such devices but still want to experience ChatIoT, you can use a device simulator to create a virtual home environment. For detailed instructions, refer to the [Miot Device Simulation Guide](./docs/Miot_Device_Setup_CN.md).
 
-### 2. LLM API Setup
-ChatIoT is powered by Large Language Models (LLMs). Given the challenges associated with local deployment of LLMs, it currently utilizes API calls. Therefore, you will need to acquire an LLM API key.
+### 2. Obtain a Large Model API Key
+ChatIoT leverages large language models for device control and rule creation. Given the difficulty of deploying large model services locally, ChatIoT currently uses API calls.
 
-Below is the current list of recommended APIs:
-- gpt-3.5-turbo
-- gpt-4-turbo
-- gpt-4o
-- deepseek-chat
-- moonshot-v1-8k
+Below is a list of currently supported APIs (requires support for OpenAI calls):
 
-Support for a broader range of APIs will be available soon.
+- [qwen-max](https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.57c055effQCwnp#/model-market)[Recommended]
+- [qwen-plus](https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.57c055effQCwnp#/model-market)
+- [qwen-turbo](https://bailian.console.aliyun.com/?spm=a2c4g.11186623.0.0.57c055effQCwnp#/model-market)
+- [moonshot-v1-8k](https://platform.moonshot.cn/console/api-keys)
+- [deepseek-chat](https://platform.deepseek.com/api_keys)
+- [deepseek-reasoner](https://platform.deepseek.com/api_keys)
 
+We will soon support a broader range of large language model calls.
 
-## :hammer_and_wrench: Get Started
-**There are two methods to deploy ChatIoT.**
+## 🛠️ Installation
 
-If you just want to use ChatIoT, it is recommended to deploy it through Home Assistant integration.
+Home Assistant custom integration files are placed in the `/config/custom_components` directory. Therefore, installation essentially involves placing the ChatIoT files in this directory. There are two methods:
 
-### :whale: Deploy via HASS Integration (Recommended)
-ChatIoT can be installed and deployed directly in Home Assistant through HACS integration.
+### Method 1: Git Clone from Github
+```bash
+cd config # Home Assistant configuration directory
+git clone https://github.com/zju-emnets/ChatIoT
+cd chatiot
+./install.sh /config # /config is the default location in the Home Assistant container. Use the external absolute path when operating in the externally mounted configuration folder.
+```
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=Integration&repository=ChatIoT&owner=ifcarpediem)
+### Method 2: HACS
 
-Please see the [Integration Setup Guide](./docs/ChatIoT_Integration_Setup.md) for more information.
+HACS > Overflow Menu > Custom repositories > Repository: https://github.com/zju-emnets/ChatIoT.git & Category or Type: Integration > ADD > ChatIoT in New or Available for download section of HACS > DOWNLOAD
 
-### :computer: Deploy Locally
-If you want to modify ChatIoT but are not familiar with Home Assistant and do not want your modifications to be affected by Home Assistant, you can choose to deploy ChatIoT locally and only use Home Assistant as a device interface.
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?category=Integration&repository=ChatIoT&owner=zju-emnets)
 
-Please see the [Deploy Locally Setup Guide](./docs/Deploy_Locally_Setup.md) for more information on installion on your local device.
+For detailed instructions, refer to the [ChatIoT Integration Installation Guide](./docs/ChatIoT_Integration_Setup_CN.md).
 
-## :black_nib: Citation
-To cite [ChatIoT](https://maestro.acm.org/trk/clickp?ref=z16l2snue3_2-310b8_0x33ae25x01410&doi=3678585) in publications, please use the following BibTeX entries.
+## ✒️ Citation
+
+If ChatIoT has been helpful for your research publication, please cite [ChatIoT](https://maestro.acm.org/trk/clickp?ref=z16l2snue3_2-310b8_0x33ae25x01410&doi=3678585) using the following BibTeX entry:
 
 ```bibtex
 @article{gao2024chatiot,
