@@ -24,7 +24,7 @@ docker network create --subnet=172.20.0.0/16 --gateway=172.20.0.1 chatiot
 
 # 方案1
 # 默认Home Assistant页面挂载到8123端口
-docker run -d --name="hass" --net=host -p 8123:8123 homeassistant/home-assistant:2024.10.0
+docker run -d --name="hass" -p 8123:8123 homeassistant/home-assistant:2024.10.0
 
 # 方案2
 # /config是Home Assistant的配置文件，推荐挂载到本地的一个目录
